@@ -1,0 +1,76 @@
+/* Header - menu */
+
+header {
+  position: sticky;
+  background: #e7dec9;
+  top: 0;
+  padding: 2rem 3rem;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.4rem;
+  gap: 10px;
+  overflow: auto;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(7, 33, 105);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(123, 126, 174);
+}
+
+/* Overskrifter - paragraphs */
+
+h1 {
+  font-family: "Bodoni Moda", serif;
+  color: rgb(7, 33, 105);
+  display: inline;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  color: rgb(7, 33, 105);
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  color: rgb(7, 33, 105);
+}
+
+p {
+  color: rgb(7, 33, 105);
+  font-family: "Roboto", sans-serif;
+  line-height: 2.2;
+  font-weight: bold;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  text-align: center;
+  position: sticky;
+  margin-top: 2rem;
+  background-color: rgb(249, 244, 227);
+}
+
+main {
+  background-color: rgb(249, 244, 227);
+}
+
+header .logo {
+  text-align: start;
+  font-size: 1.6rem;
+}
+header.logo a {
+  font-family: "Bodoni Moda", serif;
+}

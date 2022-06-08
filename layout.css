@@ -1,0 +1,134 @@
+/*Baggrund - Splashbillede */
+
+.baggrund {
+  background-color: rgb(222, 214, 199);
+  height: 100vh;
+  width: 100%;
+}
+
+/* Grids og regler OM MIG*/
+
+.grid_om {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.selvpotraet img {
+  margin-top: 20px;
+}
+
+/* Grids og regler GRUNDLÆGGENDE WEB */
+
+.grid_web {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+
+.billeder_af_site img {
+  width: 95%;
+  margin-bottom: 50px;
+}
+
+.mitsite {
+  margin-top: 50px;
+}
+
+.mitsite2 {
+  margin-top: 45px;
+}
+
+/* Grids og regler GRUNDLÆGGENDE INDHOLD */
+
+.pilotsite {
+  width: 85%;
+  margin-top: 5%;
+  margin-bottom: 20px;
+}
+
+.pilotsite_video {
+  width: 85%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.forside_blomster {
+  width: 75%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-left: 15%;
+}
+
+.produkt_blomster {
+  width: 75%;
+  margin-top: 15px;
+  padding-left: 15%;
+}
+
+.col_indhold {
+  margin-top: 5%;
+  margin-bottom: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.col_indhold_2 {
+  margin-bottom: 20%;
+  padding-right: 15%;
+}
+/* Grids og regler GRUNDLÆGGENDE UX*/
+
+.grid_ux {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+
+.billeder_af_site2 img {
+  width: 95%;
+  margin-bottom: 50px;
+}
+
+.prototype_2 {
+  margin-top: 30px;
+}
+
+.pitch_deck {
+  margin-top: 30px;
+}
+
+/* Grids og regler ANIMATION */
+
+.grid_animation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.col_animation img {
+  width: 95%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.billeder_af_site {
+  margin-top: 15%;
+}
+
+.splash {
+  aspect-ratio: 471/586;
+  width: 18%;
+}
+
+.grid_indhold {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.grid_indhold_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
