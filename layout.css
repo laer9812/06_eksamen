@@ -1,11 +1,8 @@
 /*Baggrund - Splashbillede */
 
-.baggrund {
-  background-color: rgb(222, 214, 199);
-  height: 100vh;
-  width: 100%;
+.splashbillede img {
+  width: 30%;
 }
-
 /* Grids og regler OM MIG*/
 
 .grid_om {

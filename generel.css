@@ -2,7 +2,7 @@
 
 header {
   position: sticky;
-  background: #e7dec9;
+  color: white;
   top: 0;
   padding: 2rem 3rem;
 }
@@ -60,11 +60,11 @@ footer {
   text-align: center;
   position: sticky;
   margin-top: 2rem;
-  background-color: rgb(249, 244, 227);
+  background-color: white;
 }
 
 main {
-  background-color: rgb(249, 244, 227);
+  background-color: white;
 }
 
 header .logo {
