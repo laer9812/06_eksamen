@@ -1,42 +1,60 @@
+img {
+  width: 100%;
+}
 /*Baggrund - Splashbillede */
 
 .splashbillede img {
-  width: 30%;
+  background-size: cover;
 }
 /* Grids og regler OM MIG*/
 
-.grid_om {
+.selvpotraet img {
+  margin-top: 20px;
+}
+.col_cv {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+/* Grids og regler GRUNDLÆGGENDE WEB */
+
+.billeder_af_site img {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+.mitsite {
+  margin-top: 54px;
+}
+
+.mitsite2 {
+  margin-top: 25px;
+}
+
+.col_web {
+  margin-left: 20px;
+}
+
+/* Grids og regler GRUNDLÆGGENDE INDHOLD */
+
+.grid_indhold_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-.selvpotraet img {
-  margin-top: 20px;
-}
-
-/* Grids og regler GRUNDLÆGGENDE WEB */
-
-.grid_web {
+.grid_indhold {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
-.billeder_af_site img {
-  width: 95%;
-  margin-bottom: 50px;
+.grid_indhold_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
-
-.mitsite {
-  margin-top: 50px;
-}
-
-.mitsite2 {
-  margin-top: 45px;
-}
-
-/* Grids og regler GRUNDLÆGGENDE INDHOLD */
 
 .pilotsite {
   width: 85%;
@@ -76,32 +94,26 @@
 }
 /* Grids og regler GRUNDLÆGGENDE UX*/
 
-.grid_ux {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 10px;
-}
-
 .billeder_af_site2 img {
-  width: 95%;
-  margin-bottom: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-right: 50px;
 }
 
 .prototype_2 {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .pitch_deck {
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+.col_ux {
+  margin-left: 20px;
+  margin-right: 80px;
 }
 
 /* Grids og regler ANIMATION */
-
-.grid_animation {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
 
 .col_animation img {
   width: 95%;
@@ -118,14 +130,30 @@
   width: 18%;
 }
 
-.grid_indhold {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
+/* Media queries */
 
-.grid_indhold_2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+@media (min-width: 600px) {
+  .grid_om {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .grid_web {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+
+  .grid_ux {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+
+  .grid_animation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
 }

@@ -1,8 +1,18 @@
+* {
+  all: unset;
+
+  display: revert;
+
+  cursor: revert;
+
+  box-sizing: border-box;
+}
+
 /* Header - menu */
 
 header {
   position: sticky;
-  color: white;
+  background: whitesmoke;
   top: 0;
   padding: 2rem 3rem;
 }
@@ -20,35 +30,38 @@ header nav ul {
 
 a {
   text-decoration: none;
-  color: rgb(7, 33, 105);
+  color: rgb(0, 0, 0);
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 
 a:hover {
-  color: rgb(123, 126, 174);
+  color: rgb(150, 150, 152);
 }
 
 /* Overskrifter - paragraphs */
 
 h1 {
   font-family: "Bodoni Moda", serif;
-  color: rgb(7, 33, 105);
+  color: rgb(0, 0, 0);
   display: inline;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
-  color: rgb(7, 33, 105);
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: large;
 }
 
 h3 {
   font-family: "Playfair Display", serif;
-  color: rgb(7, 33, 105);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 
 p {
-  color: rgb(7, 33, 105);
+  color: rgb(0, 0, 0);
   font-family: "Roboto", sans-serif;
   line-height: 2.2;
   font-weight: bold;
@@ -64,13 +77,25 @@ footer {
 }
 
 main {
-  background-color: white;
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
 }
 
 header .logo {
   text-align: start;
-  font-size: 1.6rem;
+  font-size: large;
 }
 header.logo a {
   font-family: "Bodoni Moda", serif;
+}
+
+.col_web a {
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  background-color: beige;
 }
