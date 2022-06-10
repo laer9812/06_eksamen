@@ -12,7 +12,7 @@
 
 header {
   position: sticky;
-  background: whitesmoke;
+  background: rgb(86, 94, 129);
   top: 0;
   padding: 2rem 3rem;
 }
@@ -30,7 +30,7 @@ header nav ul {
 
 a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: white;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
@@ -43,25 +43,25 @@ a:hover {
 
 h1 {
   font-family: "Bodoni Moda", serif;
-  color: rgb(0, 0, 0);
+  color: white;
   display: inline;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
-  color: rgb(0, 0, 0);
+  color: white;
   font-weight: bolder;
   font-size: large;
 }
 
 h3 {
   font-family: "Playfair Display", serif;
-  color: rgb(0, 0, 0);
+  color: white;
   font-weight: bold;
 }
 
 p {
-  color: rgb(0, 0, 0);
+  color: white;
   font-family: "Roboto", sans-serif;
   line-height: 2.2;
   font-weight: bold;
@@ -77,13 +77,13 @@ footer {
 }
 
 main {
-  background-color: #ffffff;
+  background-color: #c8cbd9;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(150, 161, 190);
 }
 
 header .logo {
@@ -98,4 +98,9 @@ header.logo a {
   color: rgb(0, 0, 0);
   font-family: "Roboto", sans-serif;
   background-color: beige;
+}
+
+.col_animation a {
+  color: white;
+  background-color: aquamarine;
 }
