@@ -12,13 +12,15 @@
 
 header {
   position: sticky;
-  background: rgb(86, 94, 129);
+  background: white;
   top: 0;
   padding: 2rem 3rem;
+  border-style: solid;
+  border-color: black;
 }
 header nav ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -30,38 +32,38 @@ header nav ul {
 
 a {
   text-decoration: none;
-  color: white;
-  font-family: "Roboto", sans-serif;
+  color: rgb(1, 1, 1);
+  font-family: "Bodoni Moda", serif;
   font-weight: bold;
 }
 
 a:hover {
-  color: rgb(150, 150, 152);
+  color: yellow;
 }
 
 /* Overskrifter - paragraphs */
 
 h1 {
   font-family: "Bodoni Moda", serif;
-  color: white;
+  color: black;
   display: inline;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
-  color: white;
+  color: black;
   font-weight: bolder;
   font-size: large;
 }
 
 h3 {
-  font-family: "Playfair Display", serif;
-  color: white;
-  font-weight: bold;
+  font-family: "Bodoni Moda", serif;
+  color: rgb(0, 0, 0);
+  font-size: small;
 }
 
 p {
-  color: white;
+  color: black;
   font-family: "Roboto", sans-serif;
   line-height: 2.2;
   font-weight: bold;
@@ -77,30 +79,50 @@ footer {
 }
 
 main {
-  background-color: #c8cbd9;
+  background-color: white;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 body {
-  background-color: rgb(150, 161, 190);
+  background-color: black;
 }
 
 header .logo {
-  text-align: start;
-  font-size: large;
+  text-align: center;
+  font-size: xx-large;
 }
-header.logo a {
-  font-family: "Bodoni Moda", serif;
+header .logo a {
+  font-family: "Roboto", sans-serif;
+  background-color: yellow;
 }
 
 .col_web a {
   color: rgb(0, 0, 0);
   font-family: "Roboto", sans-serif;
-  background-color: beige;
+  background-color: yellow;
 }
 
 .col_animation a {
-  color: white;
-  background-color: aquamarine;
+  color: black;
+  background-color: yellow;
+  font-family: "Roboto", sans-serif;
+}
+
+.col_ux a {
+  color: black;
+  background-color: yellow;
+  font-family: "Roboto", sans-serif;
+}
+
+.col_indhold a {
+  color: black;
+  background-color: yellow;
+  font-family: "Roboto", sans-serif;
+}
+
+.col_indhold_2 a {
+  color: black;
+  background-color: yellow;
+  font-family: "Roboto", sans-serif;
 }

@@ -9,7 +9,14 @@ img {
 /* Grids og regler OM MIG*/
 
 .selvpotraet img {
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.selvpotraet {
+  background-color: black;
+  border-style: solid;
+  background-color: black;
 }
 .col_cv {
   margin-top: 20px;
@@ -18,68 +25,42 @@ img {
 
 /* Grids og regler GRUNDLÆGGENDE WEB */
 
-.billeder_af_site img {
+.billeder_af_webproces img {
   width: 100%;
-  margin-bottom: 50px;
-  margin-left: 10px;
 }
 
-.mitsite {
-  margin-top: 54px;
+.billeder_af_webproces {
+  background-color: black;
 }
 
-.mitsite2 {
-  margin-top: 25px;
+.mit_styletile_web {
+  margin-top: 60px;
+  border-style: solid;
+  border-color: black;
+}
+
+.mit_wireframe_web {
+  margin-top: 60px;
+  border-style: solid;
+  border-color: black;
+}
+
+.tekst_web {
+  margin-top: 20px;
+}
+
+.tekst_web2 {
+  margin-top: 70px;
 }
 
 .col_web {
   margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 /* Grids og regler GRUNDLÆGGENDE INDHOLD */
-
-.grid_indhold_2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-.grid_indhold {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-.grid_indhold_2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-.pilotsite {
-  width: 85%;
-  margin-top: 5%;
-  margin-bottom: 20px;
-}
-
-.pilotsite_video {
-  width: 85%;
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
-.forside_blomster {
-  width: 75%;
-  margin-top: 15px;
-  margin-bottom: 20px;
-  padding-left: 15%;
-}
-
-.produkt_blomster {
-  width: 75%;
-  margin-top: 15px;
-  padding-left: 15%;
-}
 
 .col_indhold {
   margin-top: 5%;
@@ -89,45 +70,72 @@ img {
 }
 
 .col_indhold_2 {
+  margin-top: 40px;
   margin-bottom: 20%;
   padding-right: 15%;
 }
+
+.redesign {
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+}
+
+.redesign img {
+  width: 100%;
+}
+
+.billede_wireframe_indhold {
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+}
+
+.wireframe_pilot {
+  margin-top: 62px;
+}
+
+.wireframe_indhold {
+  margin-top: 62px;
+}
+
 /* Grids og regler GRUNDLÆGGENDE UX*/
 
-.billeder_af_site2 img {
+.billeder_af_site_ux img {
   width: 100%;
-  margin-bottom: 20px;
-  margin-right: 50px;
+}
+
+.billeder_af_site_ux {
+  background-color: black;
+  border-style: solid;
+  border-color: black;
 }
 
 .prototype_2 {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .pitch_deck {
+  margin-top: 60px;
+}
+
+.skitse_ux {
+  margin-top: 40px;
+}
+
+.prototype_proces {
   margin-top: 50px;
 }
 
 .col_ux {
-  margin-left: 20px;
-  margin-right: 80px;
+  margin-left: 40px;
+  margin-right: 30px;
 }
 
 /* Grids og regler ANIMATION */
 
 .col_animation img {
-  width: 95%;
-  margin-bottom: 20px;
-  margin-top: 30px;
-}
-
-.billeder_af_site {
-  margin-top: 15%;
-}
-
-.splash {
-  aspect-ratio: 471/586;
-  width: 18%;
+  width: 100%;
 }
 
 /* Media queries */
@@ -147,13 +155,19 @@ img {
 
   .grid_ux {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
 
   .grid_animation {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .grid_indhold {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
 }
