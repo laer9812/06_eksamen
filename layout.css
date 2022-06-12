@@ -5,16 +5,18 @@ img {
 
 .splashbillede img {
   background-size: cover;
+  background-color: black;
 }
+
 /* Grids og regler OM MIG*/
 
 .selvpotraet img {
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .selvpotraet {
-  background-color: black;
   border-style: solid;
   background-color: black;
 }
@@ -70,9 +72,10 @@ img {
 }
 
 .col_indhold_2 {
-  margin-top: 40px;
+  margin-top: 35px;
   margin-bottom: 20%;
   padding-right: 15%;
+  margin-left: 35px;
 }
 
 .redesign {
@@ -92,11 +95,26 @@ img {
 }
 
 .wireframe_pilot {
-  margin-top: 62px;
+  margin-top: 120px;
 }
 
 .wireframe_indhold {
   margin-top: 62px;
+  margin-bottom: 60px;
+}
+
+.moodboard_indhold {
+  margin-bottom: 60px;
+}
+
+.styletile_indhold {
+  margin-bottom: 60px;
+}
+
+.rose {
+  width: 60%;
+  margin-top: 50%;
+  margin-left: 10px;
 }
 
 /* Grids og regler GRUNDLÆGGENDE UX*/
@@ -134,8 +152,60 @@ img {
 
 /* Grids og regler ANIMATION */
 
-.col_animation img {
-  width: 100%;
+.col_animation1 {
+  background-color: black;
+}
+
+.tekst_tema4 {
+  background-color: white;
+}
+
+.col_animation1 img {
+  width: 70%;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.tekst_spillet {
+  background-color: white;
+}
+
+.skitse_animation {
+  border-style: solid;
+  border-color: black;
+}
+
+.col_animation2 {
+  background-color: black;
+}
+
+.col_animation2 img {
+  width: 65%;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.figurdesign_animation {
+  border-style: solid;
+  border-color: black;
+}
+
+.tekst_ui_elementer {
+  background-color: white;
+}
+.col_animation3 img {
+  width: 80%;
+  margin-left: 63px;
+  margin-top: 20px;
+}
+
+.col_animation3 {
+  background-color: black;
+}
+
+.ui_elementer_animation {
+  border-style: solid;
+  margin-right: 20px;
 }
 
 /* Media queries */
