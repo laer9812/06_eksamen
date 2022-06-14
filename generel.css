@@ -49,13 +49,6 @@ h1 {
   display: inline;
 }
 
-h2 {
-  font-family: "Playfair Display", serif;
-  color: black;
-  font-weight: bolder;
-  font-size: large;
-}
-
 h3 {
   font-family: "Bodoni Moda", serif;
   color: rgb(0, 0, 0);
@@ -73,9 +66,14 @@ footer {
   font-family: "Roboto", sans-serif;
   font-size: small;
   text-align: center;
-  position: sticky;
+  position: relative;
   margin-top: 2rem;
-  background-color: white;
+  background-color: black;
+  bottom: 0;
+}
+
+footer p {
+  color: white;
 }
 
 main {
@@ -97,6 +95,13 @@ header .logo a {
   background-color: yellow;
 }
 
+ul {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  line-height: 2.2;
+  font-weight: bold;
+}
+
 .col_web a {
   color: rgb(0, 0, 0);
   font-family: "Roboto", sans-serif;
@@ -107,6 +112,7 @@ header .logo a {
   color: black;
   background-color: yellow;
   font-family: "Roboto", sans-serif;
+  margin-left: 10px;
 }
 
 .col_ux a {
@@ -122,6 +128,12 @@ header .logo a {
 }
 
 .col_indhold_2 a {
+  color: black;
+  background-color: yellow;
+  font-family: "Roboto", sans-serif;
+}
+
+.col_cv a {
   color: black;
   background-color: yellow;
   font-family: "Roboto", sans-serif;

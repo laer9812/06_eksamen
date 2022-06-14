@@ -3,9 +3,10 @@ img {
 }
 /*Baggrund - Splashbillede */
 
-.splashbillede img {
-  background-size: cover;
+.splashbillede {
   background-color: black;
+  width: 100%;
+  aspect-ratio: 16/9;
 }
 
 /* Grids og regler OM MIG*/
@@ -23,6 +24,19 @@ img {
 .col_cv {
   margin-top: 20px;
   margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.col_cv ul {
+  margin-bottom: 20px;
+}
+
+.col_cv h3 {
+  margin-bottom: 8px;
+}
+
+.col_cv a:hover {
+  color: rgb(199, 198, 182);
 }
 
 /* Grids og regler GRUNDLÆGGENDE WEB */
@@ -62,7 +76,15 @@ img {
   margin-bottom: 20px;
 }
 
+.col_web a:hover {
+  color: rgb(199, 198, 182);
+}
+
 /* Grids og regler GRUNDLÆGGENDE INDHOLD */
+
+h3.link-til-process-docs {
+  margin-top: 20px;
+}
 
 .col_indhold {
   margin-top: 5%;
@@ -117,6 +139,14 @@ img {
   margin-left: 10px;
 }
 
+.col_indhold a:hover {
+  color: rgb(199, 198, 182);
+}
+
+.col_indhold_2 a:hover {
+  color: rgb(199, 198, 182);
+}
+
 /* Grids og regler GRUNDLÆGGENDE UX*/
 
 .billeder_af_site_ux img {
@@ -148,64 +178,90 @@ img {
 .col_ux {
   margin-left: 40px;
   margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.col_ux a:hover {
+  color: rgb(199, 198, 182);
 }
 
 /* Grids og regler ANIMATION */
 
-.col_animation1 {
-  background-color: black;
-}
-
-.tekst_tema4 {
-  background-color: white;
-}
-
-.col_animation1 img {
-  width: 70%;
-  margin-left: 50px;
-  margin-top: 20px;
-}
-
-.tekst_spillet {
+.grid_animation {
   background-color: white;
 }
 
 .skitse_animation {
-  border-style: solid;
-  border-color: black;
-}
-
-.col_animation2 {
   background-color: black;
 }
 
-.col_animation2 img {
+.skitse_animation img {
+  margin-left: 60px;
+  margin-bottom: 20px;
   width: 65%;
-  margin-left: 70px;
-  margin-top: 20px;
+}
+
+.figurdesign_animation img {
+  margin-left: 80px;
+  margin-bottom: 20px;
+  width: 60%;
 }
 
 .figurdesign_animation {
-  border-style: solid;
-  border-color: black;
-}
-
-.tekst_ui_elementer {
-  background-color: white;
-}
-.col_animation3 img {
-  width: 80%;
-  margin-left: 63px;
-  margin-top: 20px;
-}
-
-.col_animation3 {
   background-color: black;
 }
 
+.ui_elementer_animation img {
+  margin-bottom: 150px;
+  width: 88%;
+  margin-left: 40px;
+}
+
 .ui_elementer_animation {
-  border-style: solid;
-  margin-right: 20px;
+  background-color: black;
+}
+
+.col_animation1 {
+  margin-bottom: 100px;
+}
+
+.tekst_tema4 {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.col_animation1 p {
+  padding-left: 20px;
+}
+
+.col_animation2 {
+  margin-bottom: 272px;
+}
+
+.tekst_spillet {
+  padding-top: 25px;
+}
+
+.col_animation3 {
+  margin-bottom: 215px;
+}
+
+.col_animation3 a {
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.tekst_ui_elementer {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.col_animation3 p {
+  padding-left: 10px;
+}
+
+.col_animation3 a:hover {
+  color: rgb(199, 198, 182);
 }
 
 /* Media queries */
