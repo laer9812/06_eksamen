@@ -19,14 +19,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   </head>
   <body>
     <header>
-      <div class="logo">
-        <a href="index.html">P O R T F O L I O</a>
-      </div>
-      <nav>
-        <ul>
+      <nav class="main-menu">
+        <button class="toggle-btn">MENU</button>
+        <ul class="nav-links">
           <li><a href="web.html">WEB</a></li>
           <li><a href="UX.html">UX</a></li>
           <li><a href="animation.html">ANIMATION</a></li>
@@ -36,13 +35,16 @@
       </nav>
     </header>
 
-    <main>
-      <div class="splashbillede">
-        <img src="smiley.webp" alt="splash" />
+    <main class="splashbillede">
+      <div class="splashbillede_tekst">
+        <h1>P O R T F O L I O</h1>
+        <p>Lærke Dalberg</p>
       </div>
     </main>
     <footer>
       <p>© Lærke Dyrup Dalberg</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

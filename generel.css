@@ -8,6 +8,41 @@
   box-sizing: border-box;
 }
 
+/* BURGER MENU */
+.toggle-btn {
+  background: transparent;
+  border: none;
+  font-size: 100%;
+  font-family: "Bodoni Moda", serif;
+  color: black;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .main-menu {
+    display: contents;
+    text-align: right;
+  }
+
+  .main-menu .nav-links {
+    display: none;
+  }
+
+  .main-menu.shown .nav-links {
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 100%;
+    border-top: black solid 1px;
+    margin-top: 10px;
+    padding-top: 1rem;
+  }
+}
+
 /* Header - menu */
 
 header {
@@ -67,7 +102,6 @@ footer {
   font-size: small;
   text-align: center;
   position: relative;
-  margin-top: 2rem;
   background-color: black;
   bottom: 0;
 }
@@ -137,4 +171,8 @@ ul {
   color: black;
   background-color: yellow;
   font-family: "Roboto", sans-serif;
+}
+
+.forside_skrift {
+  background-color: brown;
 }

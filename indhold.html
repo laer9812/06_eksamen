@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gtundlæggende indhold</title>
+    <title>Grundlæggende indhold</title>
     <link rel="stylesheet" href="layout.css" />
     <link rel="stylesheet" href="generel.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,14 +19,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   </head>
   <body>
     <header>
       <div class="logo">
         <a href="index.html">P O R T F O L I O</a>
       </div>
-      <nav>
-        <ul>
+      <nav class="main-menu">
+        <button class="toggle-btn">MENU</button>
+        <ul class="nav-links">
           <li><a href="web.html">WEB</a></li>
           <li><a href="UX.html">UX</a></li>
           <li><a href="animation.html">ANIMATION</a></li>
@@ -43,15 +45,15 @@
           <a href="http://lddesign.dk/kea/05_indhold/pilot_site%20/" target="_blank">Se mit pilotsite her</a>
         </div>
         <div class="billede_wireframe_indhold">
-          <img class="wireframe_pilot" src="wireframe_pilot.webp" alt="wireframe_pilot" />
+          <img class="wireframe_pilot" src="fotos/wireframe_pilot.webp" alt="wireframe_pilot" />
 
           <div class="order"></div>
         </div>
 
         <div class="redesign">
-          <img class="wireframe_indhold" src="wireframe_indhold.webp" alt="wireframe_indhold" />
-          <img class="moodboard_indhold" src="moodboard_indhold.webp" alt="moodboard_indhold" />
-          <img class="styletile_indhold" src="styiletile_indhold.webp" alt="styiletile_indhold" />
+          <img class="wireframe_indhold" src="fotos/wireframe_indhold.webp" alt="wireframe_indhold" />
+          <img class="moodboard_indhold" src="fotos/moodboard_indhold.webp" alt="moodboard_indhold" />
+          <img class="styletile_indhold" src="fotos/styiletile_indhold.webp" alt="styiletile_indhold" />
 
           <div class="order"></div>
         </div>
@@ -73,5 +75,7 @@
     <footer>
       <p>© Lærke Dyrup Dalberg</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

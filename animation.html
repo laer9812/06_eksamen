@@ -13,14 +13,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,900&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   </head>
   <body>
     <header>
       <div class="logo">
         <a href="index.html">P O R T F O L I O</a>
       </div>
-      <nav>
-        <ul>
+      <nav class="main-menu">
+        <button class="toggle-btn">MENU</button>
+        <ul class="nav-links">
           <li><a href="web.html">WEB</a></li>
           <li><a href="UX.html">UX</a></li>
           <li><a href="animation.html">ANIMATION</a></li>
@@ -33,17 +35,17 @@
     <main>
       <div class="grid_animation">
         <div class="col_animation1">
-          <div class="skitse_animation"><img src="skitse_animation.webp" alt="skitse_animation" /></div>
+          <div class="skitse_animation"><img src="fotos/skitse_animation.webp" alt="skitse_animation" /></div>
           <h3 class="tekst_tema4">TEMA 4</h3>
           <p>I dette tema blev jeg introduceret til javaScript som bruges til at kode avanceret og dynamiske websites, for at skabe interaktive elementer. Ideen med temaet er at man skulle skabe sit eget spil fra bunden ved brug af js og css animationer. Temaet lagde vægt på formgive grafiske elementer, analysere forskellige spildesign og hvordan det engagerede brugeren. Jeg fik en forståelse for forskellige konventioner inden for UI-elementer, figurelementer, baggrundsdesign samt kompositionsteknikker.</p>
         </div>
         <div class="col_animation2">
-          <div class="figurdesign_animation"><img src="figurdesign.webp" alt="figurdesign_animation" /></div>
+          <div class="figurdesign_animation"><img src="fotos/figurdesign.webp" alt="figurdesign_animation" /></div>
           <h3 class="tekst_spillet">SPILLET</h3>
           <p>Opgaven på tema 4 gik ud på at skabe sit eget spil fra bunden. Jeg startede min proces med at undersøge forskellige spil og forskellige stilarter. Jeg brugte metoden sketching for at give mig en visuelt indblik på hvordan mit endelige spil ville se ud. Vi brugte peer to peer feedbackmetoden med medstuderende for at få konkrete indsigter på ens ideer.</p>
         </div>
         <div class="col_animation3">
-          <div class="ui_elementer_animation"><img class src="UI_elementer.webp" alt="ui_elementer_animation" /></div>
+          <div class="ui_elementer_animation"><img class src="fotos/UI_elementer.webp" alt="ui_elementer_animation" /></div>
           <h3 class="tekst_ui_elementer">UI-ELEMENTER</h3>
           <p>Jeg lærte at bruge Adobe illustrator til at designe mine figur-elementer, spil-elementer og baggrundsdesign. Jeg lavede statemachine diagram samt aktivitets diagram på mit spil. Diagramerne er med for at skabe struktur over spillets gang og giver sig selv samt læseren en nemmere forståelse af hvordan spillet virker og hvad der sker.</p>
           <a href="http://lddesign.dk/kea/04_animation/spil/spil.html" target="_blank">Prøv mit spil her</a>
@@ -53,5 +55,7 @@
     <footer>
       <p>© Lærke Dyrup Dalberg</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

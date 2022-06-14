@@ -4,9 +4,36 @@ img {
 /*Baggrund - Splashbillede */
 
 .splashbillede {
+  display: grid;
+  place-content: start;
+  height: 100vh;
+  background-image: url(smileys_redi.webp);
   background-color: black;
   width: 100%;
+  height: 90%;
+  background-size: 100%;
   aspect-ratio: 16/9;
+}
+
+.splashbillede h1 {
+  font-size: 150%;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.splashbillede p {
+  font-size: 70%;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.splashbillede_tekst {
+  background-color: white;
+  margin-left: 148px;
+  margin-top: 112px;
+  border-style: solid;
+  border-color: black;
 }
 
 /* Grids og regler OM MIG*/
@@ -295,5 +322,95 @@ h3.link-til-process-docs {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+
+  .splashbillede h1 {
+    font-size: 200%;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .splashbillede p {
+    font-size: 90%;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .splashbillede_tekst {
+    background-color: white;
+    margin-left: 168px;
+    margin-top: 130px;
+    border-style: solid;
+    border-color: black;
+  }
+}
+
+@media (min-width: 800px) {
+  .splashbillede h1 {
+    font-size: 250%;
+    margin-top: 250px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .splashbillede p {
+    font-size: 90%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .splashbillede_tekst {
+    background-color: white;
+    margin-left: 206px;
+    margin-top: 170px;
+    border-style: solid;
+    border-color: black;
+  }
+}
+
+@media (min-width: 1000px) {
+  .splashbillede h1 {
+    font-size: 250%;
+    margin-top: 250px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .splashbillede p {
+    font-size: 90%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .splashbillede_tekst {
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 250px;
+    border-style: solid;
+    border-color: black;
+  }
+}
+
+@media (min-width: 1200px) {
+  .splashbillede h1 {
+    font-size: 250%;
+    padding: 50px;
+    text-align: center;
+  
+  }
+
+  .splashbillede p {
+    font-size: 90%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .splashbillede_tekst {
+    background-color: white;
+    margin-left: 380px;
+    margin-top: 290px;
+    border-style: solid;
+    border-color: black;
   }
 }
