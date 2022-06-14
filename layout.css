@@ -7,7 +7,7 @@ img {
   display: grid;
   place-content: start;
   height: 100vh;
-  background-image: url(smileys_redi.webp);
+  background-image: url(fotos/smileys_redi.webp);
   background-color: black;
   width: 100%;
   height: 90%;
@@ -397,7 +397,6 @@ h3.link-til-process-docs {
     font-size: 250%;
     padding: 50px;
     text-align: center;
-  
   }
 
   .splashbillede p {
